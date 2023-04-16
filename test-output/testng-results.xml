@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-16T10:17:40 TRT" name="Suite" finished-at="2023-04-16T10:17:40 TRT" duration-ms="44">
+  <suite started-at="2023-04-16T12:40:12 TRT" name="Suite" finished-at="2023-04-16T12:40:12 TRT" duration-ms="51">
     <groups>
       <group name="Master">
         <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
@@ -11,19 +11,19 @@
         <method signature="TC_001_AccountRegistrationTest.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" name="test_account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-04-16T10:17:40 TRT" name="Test" finished-at="2023-04-16T10:17:40 TRT" duration-ms="44">
+    <test started-at="2023-04-16T12:40:12 TRT" name="Test" finished-at="2023-04-16T12:40:12 TRT" duration-ms="51">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T10:17:40 TRT" name="setup" finished-at="1970-01-01T02:00:00 TRT" duration-ms="-1681629460959" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T12:40:12 TRT" name="setup" finished-at="1970-01-01T02:00:00 TRT" duration-ms="-1681638012871" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\etari\Desktop\QA_TESTER\April\testng.xml]]>
+in C:\Users\etari\Desktop\QA_TESTER\April\master.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\etari\Desktop\QA_TESTER\April\testng.xml
+in C:\Users\etari\Desktop\QA_TESTER\April\master.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -53,17 +53,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T10:17:40 TRT" name="test_account_Registration" finished-at="2023-04-16T10:17:40 TRT" duration-ms="0" status="SKIP">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T12:40:12 TRT" name="test_account_Registration" finished-at="2023-04-16T12:40:12 TRT" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\etari\Desktop\QA_TESTER\April\testng.xml]]>
+in C:\Users\etari\Desktop\QA_TESTER\April\master.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\etari\Desktop\QA_TESTER\April\testng.xml
+in C:\Users\etari\Desktop\QA_TESTER\April\master.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T10:17:40 TRT" name="tearDown" finished-at="1970-01-01T02:00:00 TRT" duration-ms="-1681629460985" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6d763516]" started-at="2023-04-16T12:40:12 TRT" name="tearDown" finished-at="1970-01-01T02:00:00 TRT" duration-ms="-1681638012902" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
